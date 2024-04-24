@@ -1,4 +1,10 @@
 import { createApp } from 'vue'
 import App from './App.vue'
+import LoginComponent from './components/LoginComponent.vue'
 
-createApp(App).mount('#app')
+const app = createApp(App);
+
+app.component("LoginComponent", LoginComponent);
+
+app.mount("#app");
+

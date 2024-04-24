@@ -33,14 +33,10 @@
 </template>
 
 <script>
-import LoginComponent from './LoginComponent.vue';
 export default {
   name: 'HelloWorld',
   props: {
     msg: String
-  },
-  components: {
-    LoginComponent
   }
 }
 </script>
